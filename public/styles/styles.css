@@ -1,0 +1,67 @@
+/* public/styles/style.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the whole page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  /* Card styles for details view */
+  .card {
+    margin-top: 20px;
+  }
+  
+  /* Button styles */
+  .btn-view  {
+    background-color: rgb(47, 142, 219); /*  Blue */
+    color: white; /* White */
+  }
+  
+  .btn-view:hover {
+    background-color:rgb(47, 142, 219); /*  Blue */
+  }
+  
+  .btn-edit {
+    background-color: rgb(47, 142, 219); /*  Blue */
+    color: #ffffff; /* White */
+  }
+  
+  .btn-edit:hover {
+    background-color: rgb(47, 142, 219); /* Blue */
+  }
+  
+  .btn-delete {
+    background-color: rgb(243, 48, 48); /* Light Red */
+    color: #ffffff; /* White */
+  }
+  
+  .btn-delete:hover {
+    background-color: rgb(243, 48, 48); /* Darker Light Red */
+  }
+  
+  /* Hover effects for table rows */
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Adding some animation to buttons */
+  .btn {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
